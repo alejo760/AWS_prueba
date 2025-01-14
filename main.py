@@ -1,7 +1,7 @@
-﻿import fastapi
+﻿from fastapi import FastAPI
 import uvicorn
 
-app = fastapi.FastAPI()
+app = FastAPI.FastAPI()
 
 @app.get("/")
 def read_root():
